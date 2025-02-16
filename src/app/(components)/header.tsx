@@ -20,7 +20,7 @@ export default function page() {
 			<nav>
 				<ul>
 					<li>
-						<Link href={'/about'}>Все курсы</Link>
+						<Link href={'/pages/allcourse'}>Все курсы</Link>
 					</li>
 					<li>
 						<Link href={'/about'}>Мероприятия</Link>
