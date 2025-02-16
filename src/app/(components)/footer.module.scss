@@ -1,46 +1,46 @@
-@mixin blocks{
-  color: white;
-  font-size: 1.3rem;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-     p{
-      font-size: 17px;
-      color: rgb(216, 216, 216);
-      font-weight: lighter;
-      &:hover{
-        color: white;
-      }
-    }
+@mixin blocks {
+	color: white;
+	font-size: 1.3rem;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	p {
+		font-size: 17px;
+		color: rgb(216, 216, 216);
+		font-weight: lighter;
+		&:hover {
+			color: white;
+		}
+	}
 }
-.footer{
-  height: 560px;
-  background-color: #001172;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 5rem;
-  gap: 3rem;
-  .block_1{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    h1{
-      font-weight: bold;
-    }
-  }
-  .block_2{
-    @include blocks;
-  }
-  .block_3{
-    @include blocks;
-  }
-  .block_4{
-    @include blocks;
-  }
-  .block_5{
-    @include blocks;
-  }
+.footer {
+	height: 560px;
+	background-color: #001172;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 5rem;
+	gap: 3rem;
+	.block_1 {
+		color: white;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		h1 {
+			font-weight: bold;
+		}
+	}
+	.block_2 {
+		@include blocks;
+	}
+	.block_3 {
+		@include blocks;
+	}
+	.block_4 {
+		@include blocks;
+	}
+	.block_5 {
+		@include blocks;
+	}
 }
