@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './(components)/header'
+import Footer from './(components)/footer'
 import styles from './style.module.scss'
 export default function page() {
 	return (
@@ -71,7 +72,11 @@ export default function page() {
 						</div>
 					</div>
 				</div>
+				<div className={styles.reviews}>
+					<h1>Отзывы наших студентов</h1>
+				</div>
 			</main>
+			<Footer />
 		</div>
 	)
 }

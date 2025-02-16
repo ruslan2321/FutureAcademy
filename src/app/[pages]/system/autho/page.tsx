@@ -2,7 +2,8 @@
 import React from 'react'
 import styles from './login.module.scss'
 import Image from 'next/image'
-import Header from '../../../(components)/header'
+import Header from '@/app/(components)/header'
+import Footer from '@/app/(components)/footer'
 import { useRouter } from 'next/navigation'
 export default function page() {
   const router = useRouter()
@@ -24,6 +25,7 @@ export default function page() {
 				</form>
 				<Image src='/img/sov.png' width={300} height={50} alt='' />
 			</div>
+			<Footer/>
 		</>
 	)
 }

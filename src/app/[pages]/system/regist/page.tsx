@@ -2,7 +2,8 @@
 import React from 'react'
 import styles from './regist.module.scss'
 import Alert from '@mui/material/Alert'
-import Header from '../../../(components)/header'
+import Header from '@/app/(components)/header'
+import Footer from '@/app/(components)/footer'
 import { useRouter } from 'next/navigation'
 import { queryObjects } from 'v8'
 export default function regist() {
@@ -28,6 +29,7 @@ export default function regist() {
 					<p></p>
 				</div>
 			</div>
+			<Footer/>
 		</>
 	)
 }
