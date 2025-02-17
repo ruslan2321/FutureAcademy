@@ -23,13 +23,13 @@ export default function page() {
 						<Link href={'/pages/allcourse'}>Все курсы</Link>
 					</li>
 					<li>
-						<Link href={'/about'}>Мероприятия</Link>
+						<Link href={'/page/Events'}>Мероприятия</Link>
 					</li>
 					<li>
-						<Link href={'/about'}>Базы знаний</Link>
+						<Link href={'/pages/news'}>Новости</Link>
 					</li>
 					<li>
-						<Link href={'/about'}>Карьера</Link>
+						<Link href={'/pages/about'}>Об академии</Link>
 					</li>
 				</ul>
 				<p className='text-[#f1f1f1]'>8 800 950-33-98 </p>

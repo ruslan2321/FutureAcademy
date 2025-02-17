@@ -1,4 +1,4 @@
-import React from 'react'
+import next from 'next'
 import Header from '../../../(components)/header'
 export default function page() {
   return (

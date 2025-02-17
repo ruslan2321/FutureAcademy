@@ -12,6 +12,20 @@ color: white;
   ul{
     display: flex;
     gap: 2rem;
+    
+    a::after{
+      content: '';
+      background-color: #ef4c2b;
+      width: 0%;
+      height: 2px;
+      transition: 0.5s all;
+      display: flex;
+      bottom: 0;
+    }
+    a:hover::after{
+      width: 100%;
+    }
   }
+ 
  }
 }

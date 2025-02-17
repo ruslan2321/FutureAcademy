@@ -21,8 +21,8 @@ export default function page() {
 		<>
 			<Header />
 			<main className={styles.main}>
-				<h1>Все Программы Обучения</h1>
 				<p>Главная | все курсы</p>
+				<h1>Все Программы Обучения</h1>
 				<div className={styles.menu}>
 					<div className={styles.block_1}>
 						<FormControl>
