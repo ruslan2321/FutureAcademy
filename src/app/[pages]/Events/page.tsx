@@ -3,13 +3,12 @@ import Header from '@/app/(components)/header'
 import Footer from '@/app/(components)/footer'
 import styles from './events.module.scss'
 export default function page() {
-  
-  const title = 'Программы'
+	const title = 'Программы'
 	const subtitle = '«Разработка мобильных приложений»'
 	const text =
 		'Разработчик мобильных приложений создаёт приложения, которыми люди ежедневно пользуются на смартфонах, умных часах и планшетах. '
 
-  return (
+	return (
 		<>
 			<Header />
 			<main className={styles.main}>
