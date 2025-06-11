@@ -8,6 +8,11 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "browser": {
+  "fs": false,
+  "path": false,
+  "os": false
+},
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",

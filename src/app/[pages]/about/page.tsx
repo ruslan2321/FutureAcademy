@@ -4,12 +4,9 @@ import Footer from '@/app/(components)/footer'
 import styles from './about.module.scss'
 
 /* MUI */
-import Accordion from '@mui/material/Accordion'
-import AccordionSummary from '@mui/material/AccordionSummary'
-import AccordionDetails from '@mui/material/AccordionDetails'
-import Typography from '@mui/material/Typography'
-import AddIcon from '@mui/icons-material/Add'
-import Avatar from '@mui/material/Avatar'
+import Alert from '@mui/material/Alert';
+import { createElement } from 'react';
+
 export default function page() {
 	return (
 		<>
@@ -246,8 +243,10 @@ export default function page() {
 							<input type='email' placeholder='Ваше email' maxLength={30} />
 							<button>Отправить</button>
 						</form>
+						
 					</div>
 				</div>
+				
 			</main>
 			<Footer />
 		</>

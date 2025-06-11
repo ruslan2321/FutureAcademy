@@ -1,0 +1,10 @@
+{
+    "user1":{
+        "img": "/img/people-2.png",
+        "name":"Алина",
+        "lastname":"Микулова",
+        "firstname":"Никитина",
+        "age": "20",
+        "curs":"front-end"
+    }
+}
